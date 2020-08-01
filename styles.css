@@ -1,0 +1,17 @@
+.article {
+    margin: 0 auto;
+    width: 353px;
+    height: 237px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 16px;
+}
+
+.article img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+/* desktop */
+@media(min-width: 1024px) {
+
+}
