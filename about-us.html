@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="about-us.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- the nav bar -->
+    <nav class="nav-bar">
+      <ul class="logo-open">
+        <li>
+          <img draggable="false" class="logo" src="logo-gray-background.png" />
+        </li>
+        <li>
+          <a href="">
+            <img draggable="false" class="open" src="open.png" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+         <p class="nerds">We're Nerds</p>
+      </div>
+
+    <!-- About us paragraph -->
+      <div class="paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quisquam, animi facilis deleniti tem laboriosam maiores placeat fugit natus ut ea officia similique soluta aperiam.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quisquam, animi facilis deleniti tempora, rem, 
+          quae nam ipt laboriosam maiores placeat fugit natus ut ea officia similique soluta aperiam.
+      </div>
+
+
+    <!-- the actual form they fill out -->
+    <div class="reach-us">Reach Us</div>
+    
+    <form action="" class="user-form">
+
+    <!-- Name -->
+    <label for="name">Your Name<span class="asterisk">*</span></label><br>
+        <input class="user-name" type="text" name="name" label="First Name" required min="1" max="50" placeholder="Your Name*" id="new-name"><br>
+
+    <!-- email -->   
+     <label for="email" class="email">Email<span class="asterisk">*</span></label><br>
+        <input class="user-email" type="email" name="email" label="email" required min="1" max="25" placeholder="Example@email.com*" id="new-email"><br>
+
+    <!-- Message -->
+    <label for="message">Message<span class="asterisk">*</span></label><br>
+        <textarea class="type-message" type="text" name="message" label="message" required min="1" max="500" placeholder="Message*" id="new-message">
+          </textarea>
+
+    <!-- Submit and reset buttons -->
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+
+    </form>
+    
+    
+
+  </body>
+</html>
