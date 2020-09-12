@@ -8,7 +8,7 @@ body {
     width: auto;
     margin: 0 auto;
     margin-bottom: 25px;
-    background-image: url(hero1.png);
+    background-image: url(images/hero1.PNG);
     background-repeat: no-repeat;
 	background-size: cover;
     background-position: 16%;
@@ -150,7 +150,7 @@ ul.logo-open {
     width: auto;
     margin: 0 auto;
     margin-bottom: 25px;
-    background-image: url(hero1.png);
+    background-image: url(images/hero1.png);
     background-repeat: no-repeat;
 	background-size: cover;
     background-position: center;
