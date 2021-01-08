@@ -1,0 +1,212 @@
+body {
+    margin: 0 auto;
+}
+
+
+/* NAV bar area */
+nav {
+    position: static;
+}
+
+nav ul {
+    list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background-color: white;	
+	text-decoration: none;    
+}
+
+/* hero and header */
+.hero {
+	height: 220px;
+    width: auto;
+    margin: 0 auto;
+    background-image: url(c9/c9-background.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+   	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.c9-bio {
+    padding: 0px 13px;
+    padding: 0px 50px;
+}
+
+/* player profiles */
+
+h3 {
+    margin-left: 10px;
+    width: 130px;
+}
+
+.face img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.profile {
+    display: flex;
+}
+
+.top-logo img {
+    height: 110px;
+    width: 110px;
+    
+}
+
+.jg-logo img {
+    height: 110px;
+    width: 110px;
+    
+}
+
+.mid-logo img {
+    height: 110px;
+    width: 110px;
+    
+}
+
+.bot-logo img {
+    height: 110px;
+    width: 110px;
+    
+}
+
+.sup-logo img {
+    height: 110px;
+    width: 130px;
+    
+}
+
+.logo-open {
+    padding: 8px 8px 5px 8px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 4px 6px -2px rgba(0,0,0,.3);
+}
+
+hr {
+    width: 280px;
+}
+
+.headers {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.profile {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 0fr;
+    grid-template-rows: 0fr 1fr;
+    justify-items: center;
+}
+
+.top-text {
+    grid-column: 1/4;
+    padding: 0px 10px;
+}
+
+p {
+    text-align: center;
+}
+
+/* DESKTOP VERSION BELOW */
+
+
+@media only screen and (min-width: 769px) {
+    .logo-open {
+    padding: 10px 10px 5px 10px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 4px 6px -2px rgba(0,0,0,.3);
+}
+
+.hero {
+  	height: 420px;
+    width: auto;
+    margin: 0 auto;
+    background-image: url(c9/c9-background.jpg);
+	background-repeat: no-repeat;
+	background-position: 20% 10%;
+	background-size: 90;
+	background-position: center;
+   	display: flex;
+}
+
+  hr {
+    width: 85%;
+}
+
+  .headers {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 0fr 0fr 0fr 1fr;
+}
+
+.profile {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 0fr 0fr 0fr 1fr;
+    grid-template-rows: 0fr;
+}
+
+
+/* this is the text formatting for the players individual bios text - will rename later */
+.top-text {
+    grid-column: auto;
+}
+
+/* player pictures */
+.face img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+/* team header text */
+.c9-bio {
+    padding: 0px 13px;
+    font-size: xx-large;
+    padding: 0px 50px;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+.hero {
+  	height: 550px;
+    width: auto;
+    margin: 0 auto;
+    background-image: url(c9/c9-background.jpg);
+	background-repeat: no-repeat;
+	background-position: 20% 10%;
+	background-size: 90;
+    display: flex;
+    filter: contrast(1.4);   
+	
+  }
+
+/* team header text */
+.c9-bio {
+    padding: 0px 13px;
+    font-size: xx-large;
+    padding: 0px 50px;
+    font-family: Georgia;
+}
+
+}
